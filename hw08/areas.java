@@ -55,9 +55,9 @@ public class areas {
         else if (shape==3) {
             System.out.print("Enter base 1: ");
             int base1 = myScanner.nextInt();
-            System.out.print("Enter base 2: ");
+            System.out.print("Enter base 2: ")
             int base2 = myScanner.nextInt();
-            System.out.print("Enter height: ");
+            System.out.print("Enter height: ")
             int height = myScanner.nextInt();
             area(base1, base2, height);
             
