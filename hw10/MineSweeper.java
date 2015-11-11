@@ -55,8 +55,8 @@ public class MineSweeper {
             }
             
             //calculate number of mines adjacent to each cell
-            for (int f=0; f<N-1; f++) {
-                for (int g=0; g<N-1; g++) {
+            for (int f=0; f<N; f++) {
+                for (int g=0; g<N; g++) {
                     if (board[g][f]!="M") {
                     
                     int adj=0;
@@ -99,7 +99,7 @@ public class MineSweeper {
                         adj++;
                     }
                     }
-                    if(right<N && down>=0) {
+                    if(right<N && down<N) {
                     if(board[right][down]=="M") {
                         adj++;
                     }
